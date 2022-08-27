@@ -50,7 +50,7 @@ function App() {
             </PrivateRoute>
           }
         />
-        <Route path="*" element={<></>} />
+        <Route path="*" element={<PrivateRoute />} />
       </Routes>
     </Container>
   );
